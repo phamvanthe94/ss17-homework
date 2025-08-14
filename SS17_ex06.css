@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.caculator {
+  width: 410px;
+  margin: 20px auto;
+  padding: 15px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: rgb(250, 252, 252);
+}
+
+.display {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75) inset;
+  border-radius: 2px;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 20px auto;
+}
+
+.operator {
+  background-color: #dddddd;
+  width: 100%;
+  min-height: 60px;
+  font-size: 24px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 250;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset;
+}
+.operator:hover {
+  background-color: rgba(241, 234, 234, 0.959);
+}
+
+.button button:not(.equal, .operator) {
+  width: 100%;
+  min-height: 50px;
+  font-size: 24px;
+  padding: 15px;
+  border: none;
+  border-radius: 2px;
+  background-color: #eef3f4;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.button button:not(.equal, .operator):hover {
+  background-color: #ddd;
+}
+
+.equal {
+  grid-row: span 4;
+  grid-column: 4;
+  background-color: hwb(217 30% 0%);
+  border: none;
+  color: white;
+  height: calc(60px * 4 + 60px);
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.equal:hover {
+  background-color: rgb(10, 176, 248);
+}
