@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.post {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.body-box {
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.box-child {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+}
+
+.box-child.child1 {
+  background-color: yellow;
+}
+.box-child.child2 {
+  background-color: green;
+}
+.box-child.child3 {
+  
+  background-color: gray;a1}4
+                                                                                                                                                                                                                             
