@@ -1,0 +1,117 @@
+.background {
+  position: relative;
+}
+.background-img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.background-title {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 450px;
+}
+
+.form-container {
+  width: 229px;
+  height: 300px;
+
+  position: absolute;
+  top: 140px;
+  left: 510px;
+  background-color: white;
+}
+
+.form-title {
+  height: 40px;
+  background-color: #33b5e5;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.fomr-input {
+  margin: 10px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.form-btn {
+  margin: 10px;
+  height: 25px;
+  background-color: #ef4d4d;
+  border: none;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.OR {
+  text-align: center;
+  color: rgb(7, 162, 234);
+}
+
+.form-icon {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.form-icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.fa-facebook-f {
+  background-color: blue;
+}
+
+.fa-twitter {
+  background-color: #0687eb;
+}
+
+.fa-google-plus-g {
+  background-color: #ea2f1a;
+}
+
+.form-icon a {
+  text-decoration: none;
+}
+
+.fomr-footer {
+  text-align: center;
+  font-size: 11px;
+}
+
+.fomr-footer a {
+  text-decoration: none;
+  color: #33b5e5;
+}
+
+.footer {
+  padding-left: 400px;
+  padding-top: 500px;
+  color: white;
+}
